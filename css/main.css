@@ -1,0 +1,194 @@
+/*
+ * Estilos de tu proyecto
+ */
+
+body{
+	padding: 0px;
+	margin:0 auto; 
+	box-sizing: border-box;
+}
+.encabezado{
+	background:	#2c3050;
+	position: fixed;
+	width: 100%;
+}
+h1{
+	color:white;
+	float: left;
+	margin-left: 150px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: 'Lato';
+
+}
+.folio{
+	color:white;
+	font-family: 'Lato';
+	float: left;
+	margin-left: 420px;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.folio:hover{
+	height: 17px;
+	color: lightblue;
+}
+.acerca{
+	color:white;
+	font-family: 'Lato';
+	float: left;
+	margin-left: 15px;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.acerca:hover{
+	height: 17px;
+	color:lightblue;
+}
+.contacto{
+	color:white;
+	font-family: 'Lato';
+	float: left;
+	margin-left: 15px;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+.contacto:hover{
+	height: 17px;
+	color: lightblue;
+}
+.encabezado2{
+	background:	#66CDAA;
+}
+.profile img{
+	height: 200px;
+	width: 200px;
+	margin-left: 620px;
+	margin-top: 150px;
+}
+.bootstrap {
+	color:white;
+	margin-left: 500px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-family: 'monserrat';
+	font-size: 35px;
+}
+.estrella{
+	color:white;
+	margin-left: 616px;
+}
+.estrella::before, .estrella::after{
+	content:" ";
+	color:white;
+	width:78px;
+	border:2px solid white;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.lista{
+	color:white;
+	margin-top: 20px;
+	text-align: center;
+	font-family: monserrat;
+	font-size: 25px;
+	padding-bottom:	50px;
+}
+
+
+
+.encabezado3{
+	height:1000px;
+	width: 100%;
+	background:	white;
+	text-align: center;
+	display: inline-block;
+}
+
+
+.text{
+	margin: 5%;
+}
+.folio2 h1{
+	color:#2c3e50;
+	font-size: 30px;
+	font-family: "monserrat";
+	margin-left: 200px;
+}
+
+.estrella2{
+	
+	outline:1px solid red;
+	color:#2c3050;
+	margin-top: 5px;
+	display: block;
+}
+.estrella2:before,  .estrella2:after{
+	content:" ";
+	color:#2c3050;
+	width:10%;
+	border:2px solid #2c3050;
+	display: inline-block;
+}
+.imagenes{
+	overflow: hidden;
+	width: 100%;
+}
+
+.cabin img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	
+	
+}
+.cake img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	
+}
+.circus img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	
+}
+.game img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+
+}
+.safe img{
+	width:300px;
+	height:300px;
+	margin: 10px;
+	
+}
+.submarine img {
+	width:300px;
+	height:300px;
+	margin: 10px;
+
+}
+.encabezado4{
+	height: 600px;
+	background:	#66CDAA;
+}
+.about{
+	color:white;
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: 'Lato';
+}
+.encabezado5{
+	background: white;
+	height: 500px;
+}
+.footer{
+	background:	#2c3050;
+	height: 400px;
+}
