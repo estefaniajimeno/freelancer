@@ -43,7 +43,7 @@ h1{
 }
 .acerca:hover{
 	height: 17px;
-	color:lightblue;
+	color: lightblue;
 }
 .contacto{
 	color:white;
@@ -68,8 +68,8 @@ h1{
 }
 .bootstrap {
 	color:white;
-	margin-left: 500px;
-	margin-top: 10px;
+	margin-left: 470px;
+	margin-top: 7px;
 	text-transform: uppercase;
 	font-family: 'monserrat';
 	font-size: 35px;
@@ -84,7 +84,7 @@ h1{
 	width:78px;
 	border:2px solid white;
 	display: inline-block;
-	margin-bottom: 12px;
+	margin-bottom: 10px;
 }
 .lista{
 	color:white;
@@ -94,101 +94,158 @@ h1{
 	font-size: 25px;
 	padding-bottom:	50px;
 }
-
-
-
 .encabezado3{
-	height:1000px;
-	width: 100%;
-	background:	white;
-	text-align: center;
-	display: inline-block;
+	
+background:	white;
 }
-
-
-.text{
-	margin: 5%;
-}
-.folio2 h1{
+.folio2 h3{
 	color:#2c3e50;
 	font-size: 30px;
-	font-family: "monserrat";
-	margin-left: 200px;
+	font-family: "Lato";
+	margin-left: 616px;
+	text-transform: uppercase;
 }
-
 .estrella2{
-	
-	outline:1px solid red;
 	color:#2c3050;
-	margin-top: 5px;
-	display: block;
+	margin-left: 610px;
 }
 .estrella2:before,  .estrella2:after{
 	content:" ";
 	color:#2c3050;
-	width:10%;
+	width:67px;
 	border:2px solid #2c3050;
 	display: inline-block;
+	margin-bottom: 10px;
 }
-.imagenes{
-	overflow: hidden;
-	width: 100%;
-}
-
 .cabin img{
 	width:300px;
 	height:300px;
-	margin: 10px;
-	
-	
+	float: left;
+	margin-top: 100px;
+	padding-left: 230px;
+
 }
 .cake img{
 	width:300px;
 	height:300px;
-	margin: 10px;
-	
+	float: left;
+	margin-top: 100px;
+	padding-left: 20px;
 }
 .circus img{
 	width:300px;
 	height:300px;
-	margin: 10px;
-	
+	float: left;
+	margin-top: 100px;
+	padding-left: 20px;
 }
 .game img{
 	width:300px;
 	height:300px;
-	margin: 10px;
-
+	float: left;
+	margin-top: 20px;
+	padding-left: 230px;
+	
 }
 .safe img{
 	width:300px;
 	height:300px;
-	margin: 10px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
 	
 }
 .submarine img {
 	width:300px;
 	height:300px;
-	margin: 10px;
-
+	float: left;
+	margin-top: 20px;
+	padding-left: 20px;
 }
 .encabezado4{
-	height: 600px;
 	background:	#66CDAA;
 }
-.about{
+.about1{
 	color:white;
-	float: left;
-	margin-left: 200px;
-	margin-top: 50px;
+	font-size: 30px;
 	text-transform: uppercase;
-	font-family: 'Lato';
+	font-family: 'monserrat';
+	margin-top: 800px;
+	margin-left: 650px;
+	padding-top: 20px; 
 }
+.estrella3{
+	color:white;
+	margin-left: 600px;
+	margin-top: 2px;
+}
+.estrella3::before, .estrella3::after{
+	content:" ";
+	color:white;
+	width:78px;
+	border:2px solid white;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.parrafo1{
+	color: white;
+	display: inline-block;
+	width: 340px;
+	height: 300px;
+	margin-left: 300px;
+	font-size: 130%;
+	font-family: "Lato"
+
+}
+.parrafo2{
+	color:white;
+	display: inline-block;
+	width: 340px;
+	height: 300px;
+	margin-left: 90px;
+	font-size: 130%;
+	font-family: "Lato"
+}
+.download{
+	border:2px solid white;
+	padding: 3px; 
+	background-color:#66CDAA;
+	color:white; 
+	font-family:"Lato";
+	border-radius: 4px; 
+	width: 00px;
+	margin-bottom: 50px;
+	margin-left: 500px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+
+
 .encabezado5{
 	background: white;
-	height: 500px;
 }
+.contac{
+	font-family:"Lato"
+	color:#2c3050;
+	font-size: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
 	background:	#2c3050;
-	height: 400px;
 }
