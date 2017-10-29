@@ -7,6 +7,7 @@ body{
 	margin:0 auto; 
 	box-sizing: border-box;
 }
+/*Esta es la primera parte*/
 .encabezado{
 	background:	#2c3050;
 	position: fixed;
@@ -31,7 +32,7 @@ h1{
 }
 .folio:hover{
 	height: 17px;
-	color: lightblue;
+	color: #66CDAA;
 }
 .acerca{
 	color:white;
@@ -43,7 +44,7 @@ h1{
 }
 .acerca:hover{
 	height: 17px;
-	color: lightblue;
+	color: #66CDAA;
 }
 .contacto{
 	color:white;
@@ -55,8 +56,9 @@ h1{
 }
 .contacto:hover{
 	height: 17px;
-	color: lightblue;
+	color: #66CDAA;
 }
+/*Esta es la segunda parte*/
 .encabezado2{
 	background:	#66CDAA;
 }
@@ -71,7 +73,7 @@ h1{
 	margin-left: 470px;
 	margin-top: 7px;
 	text-transform: uppercase;
-	font-family: 'monserrat';
+	font-family: 'Monserrat';
 	font-size: 35px;
 }
 .estrella{
@@ -90,10 +92,11 @@ h1{
 	color:white;
 	margin-top: 20px;
 	text-align: center;
-	font-family: monserrat;
+	font-family: 'Monserrat';
 	font-size: 25px;
 	padding-bottom:	50px;
 }
+/*Esta es la segunda parte*/
 .encabezado3{
 	
 background:	white;
@@ -101,7 +104,7 @@ background:	white;
 .folio2 h3{
 	color:#2c3e50;
 	font-size: 30px;
-	font-family: "Lato";
+	font-family: 'Lato';
 	margin-left: 616px;
 	text-transform: uppercase;
 }
@@ -162,14 +165,16 @@ background:	white;
 	margin-top: 20px;
 	padding-left: 20px;
 }
+/*Esta es la tercera parte*/
 .encabezado4{
 	background:	#66CDAA;
+	height: 600px;
 }
 .about1{
 	color:white;
 	font-size: 30px;
 	text-transform: uppercase;
-	font-family: 'monserrat';
+	font-family: 'Lato';
 	margin-top: 800px;
 	margin-left: 650px;
 	padding-top: 20px; 
@@ -194,7 +199,7 @@ background:	white;
 	height: 300px;
 	margin-left: 300px;
 	font-size: 130%;
-	font-family: "Lato"
+	font-family: 'Monserrat';
 
 }
 .parrafo2{
@@ -204,48 +209,148 @@ background:	white;
 	height: 300px;
 	margin-left: 90px;
 	font-size: 130%;
-	font-family: "Lato"
+	font-family: 'Monserrat';
 }
-.download{
+.download {
 	border:2px solid white;
-	padding: 3px; 
 	background-color:#66CDAA;
 	color:white; 
-	font-family:"Lato";
+	font-family:'Monserrat';
+	font-size: 20px;
 	border-radius: 4px; 
-	width: 00px;
-	margin-bottom: 50px;
-	margin-left: 500px;
-	display: inline-block;
-	text-align: center;
+	margin-left: 600px;
+	width: 210px;
+
 }
-
-
-
-
+.download i, .download p{
+	display: inline-block;
+	padding-left: 1px;
+	margin-bottom: 20px;
+}
+/*Esta es la quinta parte*/
 .encabezado5{
 	background: white;
+	height: 650px;
 }
-.contac{
-	font-family:"Lato"
+
+.contact{
+	color: black;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Lato';
+	text-align: center;
+}
+.estrella4{
 	color:#2c3050;
-	font-size: 26px;
+	margin-left: 600px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer{
-	background:	#2c3050;
+.estrella4::before, .estrella4::after{
+	content:" ";
+	color:#2c3050;
+	width:78px;
+	border:2px solid #2c3050;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.contenedor1{
+	font-family:'Monserrat';
+	font-size: 17px;
+	margin-left: 380px;
+	margin-top: 5px;
+	color: grey;
+}
+.message{
+	margin-bottom:100px; 
+}
+hr{
+	width: 400px;
+	color: grey;
+	display: inline-block;
+}
+.send{
+	border:2px solid #66CDAA;
+	background-color:#66CDAA;
+	color:white; 
+	font-family:'Monserrat';
+	font-size: 15px;
+	border-radius: 3px;
+	display: inline inline-block;
+	margin-left: 350px;
+	width: 50px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*Esta es la ultima parte*/
+.encabezado6{
+	background:#2c3050;s
+}
+.location{
+	font-size: 15px;
+	font-family: 'Lato'; 
+	color:white;
+	position: relative;
+	left: 300px;
+	top: 30px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.melrose{
+	font-size: 15px;
+	font-family: 'Monserrat';
+	color:white;
+	width: 130px;
+	position: relative;
+	left: 300px;
+	top: 15px;
+}
+.around1{
+	font-size: 15px;
+	font-family: 'Lato';
+	color:white;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	bottom: 108px;
+	left: 518px;
+}
+.around2 {
+	color: white;
+	position: relative;
+	left: 400px;
+	bottom: 70px;
+	display: inline-block;
+}	
+.freelancer1{
+	font-size:15px; 
+	font-family: 'Lato'; 
+	color:white;
+	display: inline-block;
+	text-transform: uppercase;
+	position: relative;
+	bottom: 111px;
+	left: 570px;
+}
+.freelancer2{
+	font-size: 15px;
+	font-family: 'Monserrat'; 
+	color:white;
+	width: 180px;
+	position: relative;
+	left: 790px;
+	bottom:118px;
+}
+.freelancer2 h4{
+	color: #66CDAA;
+	position: relative;
+	left: 70px;
+	bottom: 36px;
+}
+.copyright{
+	font-size: 12px;
+	font-family: 'Monserrat'; 
+	color:white;
+	position: relative;
+	left: 530px;
+	bottom: 50px;
+	display: inline-block;
 }
